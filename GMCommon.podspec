@@ -10,13 +10,6 @@ Pod::Spec.new do |s|
   s.name             = 'GMCommon'
   s.version          = '0.1.1'
   s.summary          = 'Common component.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -30,12 +23,15 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'GMCommon/Classes/**/*'
+  s.swift_version = '5.0'
+  s.static_framework = true
+  s.requires_arc = true
+  
+  s.frameworks = 'UIKit', 'Foundation'
   
   # s.resource_bundles = {
   #   'GMCommon' => ['GMCommon/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
