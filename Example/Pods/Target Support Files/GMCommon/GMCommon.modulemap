@@ -1,0 +1,6 @@
+framework module GMCommon {
+  umbrella header "GMCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

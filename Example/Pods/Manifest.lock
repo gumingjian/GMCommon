@@ -1,0 +1,16 @@
+PODS:
+  - GMCommon (0.1.0)
+
+DEPENDENCIES:
+  - GMCommon (from `../`)
+
+EXTERNAL SOURCES:
+  GMCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GMCommon: 8698bb80576d850664dba2967d5af7781867a830
+
+PODFILE CHECKSUM: 98af5a7575ae59aa7173c71cd78870976fe62ccd
+
+COCOAPODS: 1.11.3

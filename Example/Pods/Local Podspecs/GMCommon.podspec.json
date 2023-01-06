@@ -1,0 +1,22 @@
+{
+  "name": "GMCommon",
+  "version": "0.1.0",
+  "summary": "A short description of GMCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/276122162@qq.com/GMCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "276122162@qq.com": "276122162@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/276122162@qq.com/GMCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GMCommon/Classes/**/*"
+}
